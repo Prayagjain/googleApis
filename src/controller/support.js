@@ -6,10 +6,10 @@ const getToken = async function () {
     let accessToken = "";
     let data = qs.stringify({
         client_id:
-            "328927256281-pjju19seammfi8cidv5t2b8kj765v51e.apps.googleusercontent.com",
-        client_secret: "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",
+            "",
+        client_secret: "",
         refresh_token:
-            "1//0ge-N-mrWeWqJCgYIARAAGBASNwF-L9IrpL6_B6uzOJ6D8isiJ7KpSkqshwIzXrAHw2xPLJ-pJzJsvMq8CVDzYM5Pm3dFW17Xijc",
+            "",
         grant_type: "refresh_token",
     });
 
